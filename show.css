@@ -1,0 +1,320 @@
+@import url(https://fonts.googleapis.com/css?family=Roboto);
+
+
+/*------------------------------------------CONCERT FEED------------------------------*/
+/*-------------------------------------------------------------------------------------*/
+
+*{
+	padding:0px;
+	margin:0px;
+}
+body{
+	width:100%;
+	height: 100%;
+	margin: 0px;
+    padding: 0px;
+		background-image:url(http://phillyprgirl.com/wp-content/uploads/2014/01/Concerts-in-Philadelphia.jpg);
+		background-repeat:no-repeat;
+        background-size:100%;
+	position:fixed;
+	z-index:3;
+	left:0;
+	right:0;
+
+
+	
+	
+}
+
+.mask{
+	background:-webkit-linear-gradient(rgba(102,51,153,.9), rgba(0,0,0,1));
+	background:-moz-linear-gradient(rgba(102,51,153,.9), rgba(0,0,0,1));
+	background:-o-linear-gradient(rgba(102,51,153,.9), rgba(0,0,0,1));
+		height:600px;
+	padding:20px;
+	width:100%;
+	display:block;
+	position:fixed;
+	z-index:3;
+	left:0;
+	right:0;
+
+
+}
+
+
+.footer{
+	background:url("http://www.trbimg.com/img-55e0b92f/turbine/la-et-ms-la-county-officials-live-nation-announce-changes-to-upcoming-dance-music-concerts-20150828");
+    background-size:100% 20%;
+    position:absolute;
+    bottom:0;
+    
+}
+h1{display: block;
+position: fixed;
+z-index: 4;
+left: 0px;
+right: 0px;
+padding:20px;}
+
+#concert-feed{
+	width:265px;
+	height:300px;
+	overflow:hidden;
+	margin:0px auto;
+	overflow-x:hidden;
+	margin-top:100px;
+	padding:50px;
+    font-weight:100;
+    font-family: 'Roboto', sans-serif;
+    border:1px solid #fff;
+	display: block;
+position: fixed;
+z-index: 3;
+left: 0px;
+right: 0px;
+	/*
+	background: url("/wp-content/themes/solon-child/images/concertfeedlogo.jpg");
+    background-size: 500px 350px;
+	background-position:13% 58%;
+	background-repeat:no-repeat;
+*/
+
+	
+}
+
+.fb_iframe_widget{
+vertical-align:top;
+}
+
+
+
+
+#concert-feed ul{
+	margin:0px;
+	padding:0px;
+}
+
+#concert-feed >ul>li{
+list-style-type:none;
+padding-bottom:10px;
+margin:20px 0;
+
+}
+
+#concert-01{
+            background:url("https://media.livenation.com/artists/45399/45399-tap-68689.jpg?1374695478");
+			background-repeat: no-repeat;
+			background-size: 263px 250px;
+    width: 263px;
+    height: 250px;
+	
+}
+
+#concert-02{
+            background:url("http://ultimateclassicrock.com/files/2014/10/Led-Zeppelin1.jpg?w=630");
+			background-repeat: no-repeat;
+			background-size: 263px 250px;
+    width: 263px;
+    height: 250px;
+
+}
+
+#concert-03{
+            background:url("http://www.killahbeez.com/wordpress/wp-content/uploads/2009/11/Killahbeez_Metric_0074.jpg");
+			background-repeat: no-repeat;
+			background-size: 263px 250px;
+    width: 263px;
+    height: 250px;
+	
+}
+
+#concert-04{
+            background:url("http://www.altpress.com/images/made/chrootimages/uploads/news/Never_Shout_Never_633_461_70_s_c1.jpg");
+			background-repeat: no-repeat;
+			background-size: 263px 250px;
+    width: 263px;
+    height: 250px;
+}
+
+
+#concert-05{
+            background:url("http://www.brooklynvegan.com/img/gc/slayer/theateratmsg/slayer-2.jpg");
+			background-repeat: no-repeat;
+			background-size: 263px 250px;
+    width: 263px;
+    height: 250px;
+	
+}
+
+#concert-06{
+            background:url("http://news.sagacom.com/wp-content/blogs.dir/3/files/2014/03/jessiejames-620x400.jpg");
+			background-repeat: no-repeat;
+    width: 263px;
+    height: 250px;
+	
+}
+
+
+.mask-cover{
+	 background-color:rgba(0, 0, 0, 0.7);
+	 width:263px;
+     height:250px;
+     opacity:1;/*hover effect change to 0*/
+     transition:1s linear;
+    -webkit-transition: 1s linear;
+	-moz-transition:1s linear;
+	-ms-transition:1s linear;
+	-o-transition:1s linear;
+	 position:relative;
+}
+
+#concert-01:hover .mask-cover{
+	opacity:1;
+
+	
+	
+}
+
+#concert-02:hover .mask-cover{
+	opacity:1;
+	
+}
+
+#concert-03:hover .mask-cover{
+	opacity:1;
+	
+}
+
+#concert-04:hover .mask-cover{
+	opacity:1;
+	
+}
+
+#concert-05:hover .mask-cover{
+	opacity:1;
+	
+}
+#concert-06:hover .mask-cover{
+	opacity: 1;
+}
+
+.tickets{
+ position:absolute;
+ height:100px;
+ top:10%;
+ left:0;
+ right:0;
+}
+
+.tickets {
+	text-decoration:none;
+	
+}
+
+.show-date{
+           font-size:20px;
+		   color:#fff;
+		   text-align:center;
+		   font-weight:100;
+		   text-transform:uppercase;
+		   line-height:30px;
+		   
+          }
+		  
+
+.buy{
+    border:2px solid #fff;
+	border-radius: 2px ;
+	-moz-border-radius:2px;
+	-webkit-border-radius:2px;
+	-ms-border-radius:2px;
+	-o-border-radius:2px;
+	text-align:center;
+	padding:3px;
+	display:block;
+	margin:0px auto 10px;
+	width:140px;
+
+	
+	
+	
+}
+.buy a{
+   text-decoration:none;
+   font-size:20px;
+   text-transform:uppercase;
+   font-weight:600;
+   color: #fff;
+   
+}
+
+
+.social-links{
+               display:block;
+               margin:0px auto;
+			   width:135px;
+}
+.social{width:61px;
+        float:left;
+        margin:3px}
+.more{
+	margin-bottom: 50px;
+}
+.more{
+		width:262px;
+		height:180px;
+		background-color:#fff;
+		padding-top:10px;
+		border-radius: 3px;
+		-moz-border-radius:3px;
+		-webkit-border-radius:3px;
+}
+
+p.more-shows>a{
+	font-size:20px;
+	
+	font-weight:600;
+	color:#545454;
+	letter-spacing: .03em;
+	word-spacing:.1em;
+		padding:5px;
+	text-decoration:none;
+	margin-left: 60px;
+	border:1.8px solid #545454;
+	
+}
+p.more-shows>a:hover{
+background-color:#545454;
+color:white;
+}
+
+.more img{margin-top:0px;
+	margin-left:58px;
+	margin-bottom:0px;
+
+}
+
+.more a {
+    padding: 10px;
+    font-weight: 500;
+    margin-left: 10px;
+	background-color:transparent;
+	
+	color:black;
+    border-radius:3px;
+	-moz-border-radius:3px;
+	-webkit-border-radius:3px;
+}
+
+/**************************************End Of Concert Feed -------------------------------------------*/
+/******************************************************************************************************/
+
+
+.footer{
+	background:url("http://www.trbimg.com/img-55e0b92f/turbine/la-et-ms-la-county-officials-live-nation-announce-changes-to-upcoming-dance-music-concerts-20150828");
+    background-size:100% 20%;
+    position:absolute;
+    bottom:0;
+    
+}
